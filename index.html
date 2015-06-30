@@ -6,22 +6,23 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>RunningTalus</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
         <style>
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="css/vendor/flickity.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -57,10 +58,35 @@
       <div class="container">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <div class="gallery js-flickity" data-flickity-options='{
+           "lazyLoad":2,
+           "initialIndex":1,
+           "autoPlay":true,
+           "accessibility":true,
+           "freeScroll":true,
+           "wrapAround":true
+         }'>
+        <!-- lazyloads image in selected cell -->
+          <div class="gallery-cell">
+            <img class="gallery-cell-image"
+                 data-flickity-lazyload="img/Aspen_Dental.png"
+                 alt="Aspen Dental Website">
+          </div>
+          <div class="gallery-cell">
+            <img class="gallery-cell-image"
+                 data-flickity-lazyload="img/CP+B_Black_Market_Group.png"
+                 alt="CP+B Black Market Group Website">
+          </div>
+          <div class="gallery-cell">
+            <img class="gallery-cell-image"
+                 data-flickity-lazyload="img/Applebees_ESPN_Fan_Zone.png"
+                 alt="Applebee's ESPN Fan Zone Website">
+          </div>
+        </div>
       </div>
     </div>
 
+    <!-- Begin Container -->
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
@@ -87,22 +113,24 @@
         <span><p>&copy; RunningTalus 2015</p></span><span><address>Contact
         <a href="mailto:dave@davemay.org">Dave May</a></address></span>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    </div>
+    <!-- End container -->
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/flickity.pkgd.js"></script>
+    <script src="js/plugins.js">             </script>
+    <script src="js/main.js">                </script>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
     </body>
 </html>
