@@ -1,1 +1,1 @@
-
+//$('.gallery-cell-image').onclick
