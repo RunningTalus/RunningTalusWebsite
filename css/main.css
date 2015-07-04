@@ -18,6 +18,9 @@ body {
   font-family : sans-serif;
 }
 
+.social_links{
+    color: royalblue;
+}
 .gallery {
    background : #FAFAFA;
 }
