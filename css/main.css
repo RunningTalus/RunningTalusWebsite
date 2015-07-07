@@ -6,6 +6,7 @@
 
 
 * {
+    font-family      : "Nunito";
   -webkit-box-sizing : border-box;
           box-sizing : border-box;
 }
@@ -16,6 +17,10 @@ h1 {
 
 body {
   font-family : sans-serif;
+}
+
+footer {
+    border: 1px solid black;
 }
 
 .social_links{
@@ -48,4 +53,25 @@ body {
 .gallery-cell-image.flickity-lazyloaded,
 .gallery-cell-image.flickity-lazyerror {
    opacity : 1;
+}
+
+.github {}
+.linkedin {
+    color : #007BB6;
+}
+.codepen {}
+.twitter{
+    color : #00ACED;
+}
+.google-plus {
+    color : #DD4B39
+}
+.stack-exchange {}
+.stack-overflow {}
+
+.facebook {
+    color : #3B5998;
+}
+.instagram {
+    color : #517FA4
 }
