@@ -55,6 +55,47 @@ footer {
    opacity : 1;
 }
 
+/***********************
+  OUTLINE BUTTONS
+************************/
+
+.btn.outline {
+    background: none;
+    color: black;
+    padding: 12px 22px;
+}
+.btn-default.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+.btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-default.outline:active, .btn-default.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTOM BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    border-radius : 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+/* Social Links */
+
+
 .github {}
 .linkedin {
     color : #007BB6;
