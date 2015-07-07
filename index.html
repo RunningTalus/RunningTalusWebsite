@@ -3,39 +3,43 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-control" content="public">
 
-        <title>RunningTalus</title>
+    <title>RunningTalus</title>
 
-        <meta name="description" content="#">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/vendor/min/bootstrap.min.css">-->
 
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
 
-        <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Nunito'>
-        <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/vendor/flickity.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Nunito '>
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap-theme.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/vendor/min/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/flickity.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+
+  <body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -43,25 +47,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">RunningTalus.com</a>
+          <h1>RunningTalus</h1>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <!--<form class="navbar-form navbar-right" role="form">-->
-            <!--<div class="form-group">-->
-              <!--<input type="text" placeholder="Email" class="form-control">-->
-            <!--</div>-->
-            <!--<div class="form-group">-->
-              <!--<input type="password" placeholder="Password" class="form-control">-->
-            <!--</div>-->
-            <!--<button type="submit" class="btn btn-success">Sign in</button>-->
-          <!--</form>-->
         </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
         <div class="gallery js-flickity" data-flickity-options='{
            "lazyLoad":2,
            "initialIndex":1,
@@ -71,98 +64,101 @@
            "wrapAround":true
          }'>
         <!-- lazyloads image in selected cell -->
-          <div class="gallery-cell">
+          <div class="gallery-cell aspen-dental">
             <img class="gallery-cell-image"
                  data-flickity-lazyload="img/Aspen_Dental.png"
+                 <!--height="1815"-->
+                 <!--width="1440"-->
                  alt="Aspen Dental Website">
           </div>
-          <div class="gallery-cell">
+          <div class="gallery-cell black-market">
             <img class="gallery-cell-image"
                  data-flickity-lazyload="img/CP+B_Black_Market_Group.png"
+                 <!--height="3380"-->
+                 <!--width="1440"-->
                  alt="CP+B Black Market Group Website">
           </div>
-          <div class="gallery-cell">
+          <div class="gallery-cell applebees">
             <img class="gallery-cell-image"
                  data-flickity-lazyload="img/Applebees_ESPN_Fan_Zone.png"
+                 <!--height="2500"-->
+                 <!--width="1440"-->
                  alt="Applebee's ESPN Fan Zone Website">
           </div>
         </div>
+        <!-- End Flickity Gallery -->
       </div>
-    </div>
+      <!-- End jumbotron -->
 
-    <!-- Begin Container -->
-    <div class="container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Company Egg</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>WORK</h2>
         </div>
         <div class="col-md-4">
-          <h2>Applebee's</h2>
+          <h3>Company Egg</h3>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h3>Applebee's</h3>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
        </div>
         <div class="col-md-4">
-          <h2>CP+B Black Market Group</h2>
+          <h3>CP+B Black Market Group</h3>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-      <div class="col-md-4">
-          <h2>Aspen Dental</h2>
+        <div class="col-md-4">
+          <h3>Aspen Dental</h3>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-          <h2>My Map Now</h2>
+        </div>
+        <div class="col-md-4">
+          <h3>MyMapNow</h3>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
+        </div>
       </div>
 
-      <hr>
-
+      <!-- Begin footer -->
       <footer>
-          <address>
-              <h3>Contact</h3>
-              <div class="btn-group" role="group" aria-label="contact information">
-                  <a class="btn btn-default" role="button" href="mailto:dave@davemay.org"><i class="fa fa-envelope-o "></i> E-mail</a>
-                  <a class="btn btn-default" role="button" ><i class="fa fa-phone"></i> Phone</a>
-                  <a class="btn btn-default" role="button" ><i class="fa fa-skype"></i> Skype</a>
-              </div>
-          </address>
-          <div class="btn-group social_links" role="group" aria-label="social media links">
-              <a class="btn btn-default github"         role="button" href="http://www.github.com/RunningTalus"><i class="fa fa-github-square fa-2x"></i> GitHub</a>
-              <a class="btn btn-default linkedin"       role="button" href="http://www.linkedin.com/in/remotesensing"><i class="fa fa-linkedin-square fa-2x"></i> LinkedIn</a>
-              <a class="btn btn-default codepen"        role="button" href="http://codepen.io/RunningTalus/"><i class="fa fa-codepen fa-2x"></i> CodePen</a>
-              <a class="btn btn-default twitter"        role="button" href="http://www.twitter.com/RunningTalus"><i class="fa fa-twitter fa-2x"></i> Twitter</a>
-              <a class="btn btn-default google-plus"    role="button" href="http://plus.google.com/112194142488129043734/posts"><i class="fa fa-google-plus-square fa-2x"></i> Google+</a>
-              <a class="btn btn-default stack-exchange" role="button" href="http://stackexchange.com/users/3914773/runningtalus"><i class="fa fa-stack-exchange fa-2x"></i> Stack Exchange</a>
-              <a class="btn btn-default stack-overflow" role="button" href="http://careers.stackoverflow.com/runningtalus"><i class="fa fa-stack-overflow fa-2x"></i> Stack Overflow</a>
-              <a class="btn btn-default instagram"      role="button" href="#"><i class="fa fa-instagram fa-2x"></i> Instagram</a>
-              <a class="btn btn-default facebook"       role="button" href="#"><i class="fa fa-facebook-official fa-2x"></i> Facebook</a>
+        <address>
+          <h6>Contact</h6>
+          <div class="btn-group" role="group" aria-label="contact information">
+            <a class="btn btn-default" role="button" href="mailto:dave@davemay.org"><i class="fa fa-envelope-o "></i> E-mail</a>
+            <a class="btn btn-default" role="button" ><i class="fa fa-phone"></i> Phone</a>
+            <a class="btn btn-default skype" role="button" ><i class="fa fa-skype"></i> Skype</a>
           </div>
-          <p>&copy; RunningTalus 2015</p>
+        </address>
+        <div class="btn-group social_links" role="group" aria-label="social media links">
+          <a class="btn btn-default github" role="button" href="http://www.github.com/RunningTalus"><i class="fa fa-github-square fa-2x"></i> GitHub</a>
+          <a class="btn btn-default codepen" role="button" href="http://codepen.io/RunningTalus/"><i class="fa fa-codepen fa-2x"></i> CodePen</a>
+          <a class="btn btn-default linkedin" role="button" href="http://www.linkedin.com/in/remotesensing"><i class="fa fa-linkedin-square fa-2x"></i> LinkedIn</a>
+          <a class="btn btn-default twitter" role="button" href="http://www.twitter.com/RunningTalus"><i class="fa fa-twitter fa-2x"></i> Twitter</a>
+          <a class="btn btn-default google-plus" role="button" href="http://plus.google.com/112194142488129043734/posts"><i class="fa fa-google-plus-square fa-2x"></i> Google+</a>
+          <a class="btn btn-default stack-exchange" role="button" href="http://stackexchange.com/users/3914773/runningtalus"><i class="fa fa-stack-exchange fa-2x"></i> Stack Exchange</a>
+          <a class="btn btn-default stack-overflow" role="button" href="http://careers.stackoverflow.com/runningtalus"><i class="fa fa-stack-overflow fa-2x"></i> Stack Overflow</a>
+        </div>
+        <p class="copyright">&copy; RunningTalus 2015</p>
       </footer>
+      <!-- End footer -->
+
     </div>
     <!-- End container -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="js/vendor/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jsmin/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <!--<script src="js/vendor/jsmin/bootstrap.min.js"></script>-->
     <script src="js/vendor/flickity.pkgd.js"></script>
     <script src="js/plugins.js">             </script>
     <script src="js/main.js">                </script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
     </script>
-    </body>
+  </body>
 </html>

@@ -1,31 +1,25 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-
-* {
-    font-family      : "Nunito";
-  -webkit-box-sizing : border-box;
-          box-sizing : border-box;
-}
-
 h1 {
-  text-align : center;
+    color: white;
+    text-align : center;
 }
 
 body {
-  font-family : sans-serif;
+  font-family : "Nunito";
 }
 
 footer {
-    border: 1px solid black;
+    border : 1px solid black;
+    padding : 3px;
 }
 
-.social_links{
-    color: royalblue;
-}
+/***********************
+  FLICKITY SLIDER
+************************/
+
 .gallery {
    background : #FAFAFA;
 }
@@ -33,7 +27,6 @@ footer {
 .gallery-cell {
    width        : 100%;
    margin-right : 10px;
-   background   : orange;
 }
 
 /* fade in image when loaded */
@@ -56,63 +49,47 @@ footer {
 }
 
 /***********************
-  OUTLINE BUTTONS
-************************/
-
-.btn.outline {
-    background: none;
-    color: black;
-    padding: 12px 22px;
-}
-.btn-default.outline {
-    border: 2px solid #0099cc;
-    color: #0099cc;
-}
-.btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
-    color: #33a6cc;
-    border-color: #33a6cc;
-}
-.btn-default.outline:active, .btn-default.outline.active {
-    border-color: #007299;
-    color: #007299;
-    box-shadow: none;
-}
-
-/***********************
   CUSTOM BTN VALUES
 ************************/
 
 .btn {
-    padding: 14px 24px;
-    border: 0 none;
-    border-radius : 0;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-weight : 700;
+    letter-spacing : 1px;
+    padding : 7px 12px;
 }
+
+.btn-default {
+    background-image : none;
+    text-shadow : none;
+}
+.btn-group > .btn {
+    float : none;
+}
+
 .btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
+    outline : 0 none;
 }
 
-/* Social Links */
+/**********************
+ Social Links
+ **********************/
 
+.skype {
+    color : #12A5F4;
+}
 
-.github {}
 .linkedin {
     color : #007BB6;
 }
-.codepen {}
-.twitter{
-    color : #00ACED;
-}
+
 .google-plus {
     color : #DD4B39
 }
-.stack-exchange {}
-.stack-overflow {}
 
-.facebook {
-    color : #3B5998;
+.twitter{
+    color : #00ACED;
 }
-.instagram {
-    color : #517FA4
+
+.copyright {
+    margin: 5px 0;
 }
