@@ -17,12 +17,12 @@
     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.css">
     <!--<link rel="stylesheet" type="text/css" href="css/vendor/min/bootstrap.min.css">-->
 
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-    </style>
+    <!--<style>-->
+        <!--body {-->
+            <!--padding-top: 50px;-->
+            <!--padding-bottom: 20px;-->
+        <!--}-->
+    <!--</style>-->
 
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Nunito '>
     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap-theme.css">
@@ -31,15 +31,26 @@
     <link rel="stylesheet" type="text/css" href="css/vendor/flickity.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/min/modernizr-2.8.3.min.js"></script>
   </head>
 
   <body>
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="container-fluid">
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+
+    <div class="container-fluid"><!-- BEGIN CONTAINER -->
+      <section>
+        <div class-"row">
+          <div class="col-md-12">
+            <header>
+            </header>
+          </div>
+        </div>
+      </section>
+
+      <nav class="navbar navbar-inverse" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -50,101 +61,110 @@
           <h1>RunningTalus</h1>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-        </div><!--/.navbar-collapse -->
+        </div>
       </nav>
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="gallery js-flickity" data-flickity-options='{
-           "lazyLoad":2,
-           "initialIndex":1,
-           "autoPlay":true,
-           "accessibility":true,
-           "freeScroll":true,
-           "wrapAround":true
-         }'>
-        <!-- lazyloads image in selected cell -->
-          <div class="gallery-cell aspen-dental">
-            <img class="gallery-cell-image"
-                 data-flickity-lazyload="img/Aspen_Dental.png"
-                 <!--height="1815"-->
-                 <!--width="1440"-->
-                 alt="Aspen Dental Website">
+      <section>
+        <!-- BEGIN JUMBOTRON -->
+        <div class="jumbotron">
+          <!-- BEGIN FLICKITY GALLERY -->
+          <div class="gallery js-flickity" data-flickity-options='{
+             "lazyLoad":2,
+             "initialIndex":1,
+             "autoPlay":true,
+             "accessibility":true,
+             "freeScroll":true,
+             "wrapAround":true
+           }'>
+          <!-- lazyloads image in selected cell -->
+            <div class="gallery-cell aspen-dental">
+              <img class="gallery-cell-image"
+                   data-flickity-lazyload="img/Aspen_Dental.png"
+                   alt="Aspen Dental Website">
+            </div>
+            <div class="gallery-cell black-market">
+              <img class="gallery-cell-image"
+                   data-flickity-lazyload="img/CP+B_Black_Market_Group.png"
+                   alt="CP+B Black Market Group Website">
+            </div>
+            <div class="gallery-cell applebees">
+              <img class="gallery-cell-image"
+                   data-flickity-lazyload="img/Applebees_ESPN_Fan_Zone.png"
+                   alt="Applebee's ESPN Fan Zone Website">
+            </div>
           </div>
-          <div class="gallery-cell black-market">
-            <img class="gallery-cell-image"
-                 data-flickity-lazyload="img/CP+B_Black_Market_Group.png"
-                 <!--height="3380"-->
-                 <!--width="1440"-->
-                 alt="CP+B Black Market Group Website">
-          </div>
-          <div class="gallery-cell applebees">
-            <img class="gallery-cell-image"
-                 data-flickity-lazyload="img/Applebees_ESPN_Fan_Zone.png"
-                 <!--height="2500"-->
-                 <!--width="1440"-->
-                 alt="Applebee's ESPN Fan Zone Website">
-          </div>
+          <!-- END FLICKITY GALLERY -->
         </div>
-        <!-- End Flickity Gallery -->
-      </div>
-      <!-- End jumbotron -->
+        <!-- END JUMBOTRON -->
+      </section>
 
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>WORK</h2>
+      <section>
+        <div class="row">
+          <div class="col-md-12">
+            <h1>WORK</h1>
+          </div>
+          <div class="col-md-6">
+            <h2>Company Egg</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          </div>
+          <div class="col-md-6">
+            <h2>Applebee's</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+         </div>
+          <div class="col-md-6">
+            <h2>CP+B Black Market Group</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </div>
+          <div class="col-md-6">
+            <h2>Aspen Dental</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </div>
+          <div class="col-md-6">
+            <h2>MyMapNow</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h3>Company Egg</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        </div>
-        <div class="col-md-4">
-          <h3>Applebee's</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-       </div>
-        <div class="col-md-4">
-          <h3>CP+B Black Market Group</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div>
-        <div class="col-md-4">
-          <h3>Aspen Dental</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div>
-        <div class="col-md-4">
-          <h3>MyMapNow</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div>
-      </div>
+      </section>
 
-      <!-- Begin footer -->
+      <!-- BEGIN FOOTER -->
       <footer>
-        <address>
-          <h6>Contact</h6>
-          <div class="btn-group" role="group" aria-label="contact information">
-            <a class="btn btn-default" role="button" href="mailto:dave@davemay.org"><i class="fa fa-envelope-o "></i> E-mail</a>
-            <a class="btn btn-default" role="button" ><i class="fa fa-phone"></i> Phone</a>
-            <a class="btn btn-default skype" role="button" ><i class="fa fa-skype"></i> Skype</a>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-upper">
+		          <h6>Contact</h6>
+		          <address>
+	              <div class="btn-group" role="group" aria-label="contact information">
+	                <a class="btn btn-default" role="button" href="mailto:dave@davemay.org"><i class="fa fa-envelope-o "></i> E-mail</a>
+	                <a class="btn btn-default" role="button" ><i class="fa fa-phone"></i> Phone</a>
+	                <a class="btn btn-default skype" role="button" ><i class="fa fa-skype"></i> Skype</a>
+	              </div>
+	            </address>
+            </div>
           </div>
-        </address>
-        <div class="btn-group social_links" role="group" aria-label="social media links">
-          <a class="btn btn-default github" role="button" href="http://www.github.com/RunningTalus"><i class="fa fa-github-square fa-2x"></i> GitHub</a>
-          <a class="btn btn-default codepen" role="button" href="http://codepen.io/RunningTalus/"><i class="fa fa-codepen fa-2x"></i> CodePen</a>
-          <a class="btn btn-default linkedin" role="button" href="http://www.linkedin.com/in/remotesensing"><i class="fa fa-linkedin-square fa-2x"></i> LinkedIn</a>
-          <a class="btn btn-default twitter" role="button" href="http://www.twitter.com/RunningTalus"><i class="fa fa-twitter fa-2x"></i> Twitter</a>
-          <a class="btn btn-default google-plus" role="button" href="http://plus.google.com/112194142488129043734/posts"><i class="fa fa-google-plus-square fa-2x"></i> Google+</a>
-          <a class="btn btn-default stack-exchange" role="button" href="http://stackexchange.com/users/3914773/runningtalus"><i class="fa fa-stack-exchange fa-2x"></i> Stack Exchange</a>
-          <a class="btn btn-default stack-overflow" role="button" href="http://careers.stackoverflow.com/runningtalus"><i class="fa fa-stack-overflow fa-2x"></i> Stack Overflow</a>
+	      </div>
+	      <div class="row">
+	        <div class="col-md-12">
+		        <div class="footer-middle">
+		          <div class="btn-group social_links" role="group" aria-label="social media links">
+		            <a class="btn btn-default github" role="button" href="http://www.github.com/RunningTalus"><i class="fa fa-github-square fa-2x"></i> GitHub</a>
+		            <a class="btn btn-default codepen" role="button" href="http://codepen.io/RunningTalus/"><i class="fa fa-codepen fa-2x"></i> CodePen</a>
+		            <a class="btn btn-default linkedin" role="button" href="http://www.linkedin.com/in/remotesensing"><i class="fa fa-linkedin-square fa-2x"></i> LinkedIn</a>
+		            <a class="btn btn-default twitter" role="button" href="http://www.twitter.com/RunningTalus"><i class="fa fa-twitter fa-2x"></i> Twitter</a>
+		            <a class="btn btn-default google-plus" role="button" href="http://plus.google.com/112194142488129043734/posts"><i class="fa fa-google-plus-square fa-2x"></i> Google+</a>
+		            <a class="btn btn-default stack-exchange" role="button" href="http://stackexchange.com/users/3914773/runningtalus"><i class="fa fa-stack-exchange fa-2x"></i> Stack Exchange</a>
+		            <a class="btn btn-default stack-overflow" role="button" href="http://careers.stackoverflow.com/runningtalus"><i class="fa fa-stack-overflow fa-2x"></i> Stack Overflow</a>
+		          </div>
+		        </div>
+          </div>
         </div>
-        <p class="copyright">&copy; RunningTalus 2015</p>
+        <p class="footer-lower">&copy; RunningTalus 2015</p>
       </footer>
-      <!-- End footer -->
+      <!-- END FOOTER -->
 
-    </div>
-    <!-- End container -->
+    </div> <!-- END CONTAINER -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jsmin/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="js/vendor/min/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/vendor/bootstrap.js"></script>
     <!--<script src="js/vendor/jsmin/bootstrap.min.js"></script>-->
     <script src="js/vendor/flickity.pkgd.js"></script>

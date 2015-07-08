@@ -1,27 +1,48 @@
 /* ==========================================================================
+   Using HTML5 Elements in Non-HTML5 Browsers, unknown elements are styled as display:inline by default
+   ========================================================================== */
+section, article, aside, footer, header, nav, hgroup {
+    display : block;
+}
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body {
+  font-family : "Nunito";
+}
+
+header {
+    height : 150px;
+}
 
 h1 {
     color: white;
     text-align : center;
 }
 
-body {
-  font-family : "Nunito";
-}
-
 footer {
-    border : 1px solid black;
     padding : 3px;
 }
+
+.navbar-inverse {
+    background-color : #19B5FE;
+    background-image : none;
+    background-repeat : none;
+    border-color : none;
+    border-radius : none;
+}
+/*.navbar-header {*/
+    /*background-color : #86E2D5;*/
+/*}*/
 
 /***********************
   FLICKITY SLIDER
 ************************/
 
 .gallery {
-   background : #FAFAFA;
+   background : #ECECEC;
 }
 
 .gallery-cell {
@@ -74,6 +95,20 @@ footer {
  Social Links
  **********************/
 
+.footer-upper {
+    background-color : greenyellow;
+    height : 200px;
+    margin: 5px 0;
+    width : 100%;
+}
+
+.footer-middle {
+    background-color : orangered;
+    height: 150px;
+    margin: 5px 0;
+    width: 100%
+}
+
 .skype {
     color : #12A5F4;
 }
@@ -90,6 +125,9 @@ footer {
     color : #00ACED;
 }
 
-.copyright {
+.footer-lower {
+    background-color: #19B5FE;
+    height: 200px;
     margin: 5px 0;
+    width : 100%;
 }
