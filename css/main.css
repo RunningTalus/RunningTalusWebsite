@@ -18,15 +18,37 @@ header {
     height : 150px;
 }
 
-.navbar-inverse {
+/* ==========================================================================
+   NAVBAR STYLES
+   ========================================================================== */
+
+.navbar {
     background-color : #19B5FE;
-    background-image : none;
-    background-repeat : none;
-    border-color : none;
-    border-radius : none;
+    border: 0;
 }
+
+.navbar-inverse {
+    background-image : none;
+    border-radius: 0;
+}
+/*.navbar-collapse {*/
+    /*background-color : #19B5FE;*/
+    /*background-image : none;*/
+    /*background-repeat : none;*/
+    /*border-radius : 0;*/
+/*}*/
 /*.navbar-header {*/
-    /*background-color : #86E2D5;*/
+    /*background-color : none;*/
+    /*background-image : none;*/
+    /*background-repeat : none;*/
+    /*border-radius : 0;*/
+/*}*/
+
+/*.collapse {*/
+    /*background-color : #19B5FE;*/
+    /*background-image : none;*/
+    /*background-repeat : none;*/
+    /*border-radius : 0;*/
 /*}*/
 
 /***********************
