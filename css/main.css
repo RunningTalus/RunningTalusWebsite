@@ -10,20 +10,12 @@ section, article, aside, footer, header, nav, hgroup {
    ========================================================================== */
 
 body {
-  font-family : "Nunito";
+    background-color: #E4F1FE;
+    font-family : "Nunito";
 }
 
 header {
     height : 150px;
-}
-
-h1 {
-    color: white;
-    text-align : center;
-}
-
-footer {
-    padding : 3px;
 }
 
 .navbar-inverse {
@@ -38,7 +30,7 @@ footer {
 /*}*/
 
 /***********************
-  FLICKITY SLIDER
+ FLICKITY SLIDER STYLES
 ************************/
 
 .gallery {
@@ -69,18 +61,25 @@ footer {
    opacity : 1;
 }
 
+.work-experience {
+    padding: 10px;
+}
+
 /***********************
-  CUSTOM BTN VALUES
-************************/
+ BUTTON STYLES
+ ************************/
 
 .btn {
+    border-radius: 0;
     font-weight : 700;
     letter-spacing : 1px;
+    margin: 2px 0 2px 0;
     padding : 7px 12px;
 }
 
 .btn-default {
     background-image : none;
+    border-radius : 0;
     text-shadow : none;
 }
 .btn-group > .btn {
@@ -92,20 +91,20 @@ footer {
 }
 
 /**********************
- Social Links
+ FOOTER AND SOCIAL STYLES
  **********************/
 
 .footer-upper {
     background-color : greenyellow;
-    height : 200px;
-    margin: 5px 0;
+    height : 150px;
+    padding: 10px;
     width : 100%;
 }
 
 .footer-middle {
     background-color : orangered;
-    height: 150px;
-    margin: 5px 0;
+    height: 300px;
+    padding: 10px;
     width: 100%
 }
 
@@ -128,6 +127,11 @@ footer {
 .footer-lower {
     background-color: #19B5FE;
     height: 200px;
-    margin: 5px 0;
+    padding: 10px;
     width : 100%;
+}
+
+.copyright {
+    position: relative;
+    top: 160px;
 }
