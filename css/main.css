@@ -52,7 +52,7 @@ header {
 /*}*/
 
 /***********************
- FLICKITY SLIDER STYLES
+ PORTFOLIO FLICKITY SLIDER STYLES
 ************************/
 
 .gallery {
@@ -82,6 +82,10 @@ header {
 .gallery-cell-image.flickity-lazyerror {
    opacity : 1;
 }
+
+/***********************
+ WORK EXPERIENCE SECTION
+ ************************/
 
 .work-experience {
     padding: 10px;
@@ -118,14 +122,14 @@ header {
 
 .footer-upper {
     background-color : greenyellow;
-    height : 150px;
+    height : auto;
     padding: 10px;
     width : 100%;
 }
 
 .footer-middle {
     background-color : orangered;
-    height: 300px;
+    height: auto;
     padding: 10px;
     width: 100%
 }
@@ -148,12 +152,11 @@ header {
 
 .footer-lower {
     background-color: #19B5FE;
-    height: 200px;
+    height: auto;
     padding: 10px;
     width : 100%;
 }
 
 .copyright {
     position: relative;
-    top: 160px;
 }
