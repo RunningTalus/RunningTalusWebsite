@@ -8,6 +8,11 @@ section, article, aside, footer, header, nav, hgroup {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family : 'Roboto', sans-serif;
     font-weight : 700;
@@ -106,6 +111,8 @@ body {
  ************************/
 
 .work-experience {
+    height: auto;
+    background-color: teal;
     padding : 10px;
 }
 
