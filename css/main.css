@@ -8,10 +8,21 @@ section, article, aside, footer, header, nav, hgroup {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
 
 body {
     background-color: #E4F1FE;
-    font-family : "Nunito";
 }
 
 .container {
