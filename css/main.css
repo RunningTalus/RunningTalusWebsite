@@ -44,6 +44,10 @@ body {
     background-color : #E4F1FE;
 }
 
+.social-header {
+    padding-right: 25px;
+}
+
 .container-fluid {
     border-radius : 0;
     height        : auto;
