@@ -9,8 +9,8 @@ section, article, aside, footer, header, nav, hgroup {
    Author's custom styles
    ========================================================================== */
 .no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+    padding-right : 0;
+    padding-left  : 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,17 +19,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-heading {
-    font-family : 'Raleway', sans-serif;
-    font-weight : 800;
+    font-family  : 'Raleway', sans-serif;
+    font-weight  : 800;
+    padding      : 10px;
 }
 
 header {
     background-color : #BDC3C7;
-    height : auto;
+    height           : auto;
 }
 
 a {
-    color : #000000;
+    color       : #000000;
     font-family : 'Droid Sans', sans-serif;
     font-weight : 400;
 
@@ -45,7 +46,7 @@ body {
 }
 
 .social-header {
-    padding-right: 25px;
+    padding-right : 25px;
 }
 
 .container-fluid {
@@ -57,8 +58,6 @@ body {
     border-radius : 0;
     margin-bottom : 0;
 }
-
-
 
 /* ==========================================================================
    NAVBAR STYLES
@@ -75,7 +74,7 @@ body {
 }
 
 .navbar-header {
-    padding-left : 10px;
+    padding : 10px;
 }
 
 /***********************
@@ -83,10 +82,12 @@ body {
 ************************/
 
 .gallery {
-   background : #ECECEC;
+    background : #ECECEC;
+    height : 900px;
 }
 
 .gallery-cell {
+    height : auto;
    width        : 100%;
    margin-right : 10px;
 }
@@ -115,9 +116,9 @@ body {
  ************************/
 
 .work-experience {
-    height: auto;
-    background-color: teal;
-    padding : 10px;
+    height           : auto;
+    background-color : teal;
+    padding           : 15px;
 }
 
 /***********************
