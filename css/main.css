@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight : 700;
 }
 
+i.fa {
+  display: inline-block;
+}
+
 .site-heading {
     font-family  : 'Raleway', sans-serif;
     font-weight  : 800;
@@ -33,6 +37,7 @@ a {
     color       : #000000;
     font-family : 'Droid Sans', sans-serif;
     font-weight : 400;
+    white-space : nowrap;
 
 }
 
@@ -46,8 +51,10 @@ body {
 }
 
 .social-header {
-    padding : 8px 28px 8px 0px;
+  overflow: hidden;
+    padding : 8px 28px 40px 0px;
 }
+
 
 .container-fluid .jumbotron {
   border-top-right-radius    : 0px;
@@ -161,10 +168,6 @@ body {
 }
 .btn-group > .btn {
     float : none;
-}
-
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline : 0 none;
 }
 
 /**********************
