@@ -3,13 +3,5 @@
 //}
 
 $(function () {
-    $('[data-toggle=tooltip]').tooltip();
-        //$('[data-toggle=popover]').on('shown.bs.popover', function () {
-        //    $('.popover').css('top',parseInt($('.popover').css('top')) + 22 + 'px')
-        //});
-    //$("i.fa").popover({'trigger':'hover'});
-    //$('[data-toggle=popover]').popover();
-    //$('#githubPopover').popover();
-    //$('#codepenPopover').css('top','30px').popover();
-
+    $('[data-toggle="tooltip"]').tooltip();
 });
