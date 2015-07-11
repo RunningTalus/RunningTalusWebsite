@@ -42,21 +42,27 @@ p {
 }
 
 body {
-    background-color : #E4F1FE;
+    background-color : #BDC3C7;
 }
 
 .social-header {
     padding : 8px 28px 8px 0px;
 }
 
+.container-fluid .jumbotron {
+  border-top-right-radius    : 0px;
+  border-top-left-radius     : 0px;
+  border-bottom-right-radius : 0px;
+  border-bottom-left-radius  : 0px;
+}
+
 .container-fluid {
-    border-radius : 0;
-    height        : auto;
+    height : auto;
 }
 
 .jumbotron {
-    border-radius : 0;
-    margin-bottom : 0;
+  background-color : #BDC3C7;
+  margin-bottom : 0;
 }
 
 /* ==========================================================================
@@ -82,8 +88,8 @@ body {
 ************************/
 
 .gallery {
-    background : #ECECEC;
-    height : 900px;
+    background-color: black;
+    height : auto;
 }
 
 .gallery-cell {
@@ -114,11 +120,22 @@ body {
 /***********************
  WORK EXPERIENCE SECTION
  ************************/
+.work {
+  background-color  : #BDC3C7;
+  height            : auto;
+  padding           : 0 0 0 30px;
+  width             : 100%;
+}
 
-.work-experience {
+.work-title {
     height            : auto;
-    background-color  : #008080;
-    padding           : 10px 0px 10px 15px;
+    background-color  : #9b59b6;
+    margin            : 0;
+    padding           : 30px 0 30px 15px;
+}
+
+.work-projects {
+  padding : 0 0 0 30px;
 }
 
 /***********************
@@ -151,19 +168,16 @@ body {
  **********************/
 
 .footer-upper {
-  background-color : #ADFF2F;
+  background-color : #f1c40f;
   height           : auto;
-  padding          : 10px 0px 10px 15px;
+  margin-top       : 60px;
+  padding          : 10px 0px 10px 30px;
 }
 
 .footer-middle {
-  background-color : #FF4500;
+  background-color : #3498db;
   height           : auto;
-  padding          : 10px 0px 10px 15px;
-}
-
-.skype {
-    color : #12A5F4;
+  padding          : 10px 0px 30px 30px;
 }
 
 .linkedin {
@@ -179,11 +193,7 @@ body {
 }
 
 .footer-lower {
-    background-color : #19B5FE;
+    background-color : #BDC3C7;
     height           : auto;
-    padding          : 100px 0px 10px 15px;
-}
-
-.copyright {
-    position: relative;
+    padding          : 100px 0px 10px 30px;
 }

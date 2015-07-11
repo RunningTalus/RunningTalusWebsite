@@ -9,27 +9,24 @@
 
     <title>RunningTalus.com</title>
 
-    <meta name="description" content="#">
+    <meta name="description" content="Web portfolio runningtalus, david may">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.css">
     <!--<link rel="stylesheet" type="text/css" href="css/vendor/min/bootstrap.min.css">-->
-
     <!--<style>-->
         <!--body {-->
             <!--padding-top: 50px;-->
             <!--padding-bottom: 20px;-->
         <!--}-->
     <!--</style>-->
-
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans|Montserrat:700|Roboto:700|Raleway:800">
     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap-theme.css">
     <!--<link rel="stylesheet" type="text/css" href="css/vendor/min/bootstrap-theme.min.css">-->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/vendor/flickity.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
     <script src="js/vendor/min/modernizr-2.8.3.min.js"></script>
   </head>
 
@@ -101,6 +98,10 @@
       <div class="navbar-header">
         <h1 class="site-heading">runningtalus</h1>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <a href="/">Blog</a>
+          <a href="/about/">About</a>
+          <a href="/projects/">Projects</a>
+          <a href="/contact/">Contact</a>
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -111,8 +112,8 @@
       </div>
     </nav><!-- END NAVIGATION -->
     <section><!-- BEGIN FLICKITY SECTION -->
-      <div class="container-fluid"><!-- BEGIN CONTAINER -->
-        <div class="jumbotron"><!-- BEGIN JUMBOTRON -->
+      <div class="jumbotron"><!-- BEGIN JUMBOTRON -->
+        <div class="container-fluid"><!-- BEGIN CONTAINER -->
           <!-- BEGIN FLICKITY GALLERY -->
           <div class="gallery js-flickity" data-flickity-options='{
              "lazyLoad":2,
@@ -120,8 +121,7 @@
              "autoPlay":true,
              "accessibility":true,
              "freeScroll":true,
-             "wrapAround":true,
-             "setGallerySize":false
+             "wrapAround":true
            }'>
             <!-- lazyloads image in selected cell -->
             <div class="gallery-cell aspen-dental">
@@ -140,51 +140,75 @@
                    alt="Applebee's ESPN Fan Zone Website">
             </div>
           </div><!-- END FLICKITY GALLERY -->
-        </div><!-- END JUMBOTRON -->
-      </div><!-- END CONTAINER -->
+        </div><!-- END CONTAINER -->
+      </div><!-- END JUMBOTRON -->
     </section><!-- END FLICKITY SECTION -->
     <section><!-- BEGIN WORK SECTION -->
-      <div class="container-fluid">
-		    <div class="row no-gutter">
-			    <div class="col-md-12">
-				    <h1 class="work-experience">WORK</h1>
-			    </div>
+      <div class="container-fluid work">
+        <div class="row no-gutter">
+          <div class="col-md-12">
+            <h1 class="work-title">Work</h1>
+          </div>
         </div>
-			  <div class="row">
-			    <div class="col-md-6 projects">
-				    <article>
-					    <h2>Company Egg</h2>
-					    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-				    </article>
-			    </div>
-				  <div class="col-md-6 projects">
+        <div class="row">
+          <div class="col-md-4 work-projects">
             <article>
-				      <h2>Applebee's</h2>
-				      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            </article>
-			    </div>
-			  </div>
-			  <div class="row">
-			    <div class="col-md-4 projects">
-            <article>
-				      <h2>CP+B Black Market Group</h2>
-				      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <h2>Company Egg</h2>
+              <h3>Summary:</h3>
+              <p>Prioritized Scrum backlog, </p>
+              <h4>Technologies Used:</h4>
+              <p>JavaScript, node.js, HTML5, CSS3, Bootstrap, GitHub, Azure, Trello</p>
+              <h5>Skills:</h5>
+              <p>Scrum</p>
             </article>
           </div>
-			    <div class="col-md-4 projects">
+          <div class="col-md-4 work-projects">
             <article>
-				      <h2>Aspen Dental</h2>
-				      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <h2>Applebee's</h2>
+              <h3>Summary:</h3>
+                <p>Reserve All-In-Burger Campaign, ESPN FanZone, Limited Time Offer Campaigns</p>
+              <h4>Technologies Used:</h4>
+                <p>JavaScript, jQuery, HTML, CSS, Visual Studio 2012, VMware Fusion, SiteCore CMS, Tortoise SVN, Adobe Photoshop.</p>
+              <h5>Skills:</h5>
+                <p>MVC Architecture, Graceful Degradation, Adaptive Web Design (Tablet & Desktop)</p>
             </article>
           </div>
-			    <div class="col-md-4 projects">
+        </div>
+        <div class="row">
+          <div class="col-md-4 work-projects">
             <article>
-				      <h2>MyMapNow</h2>
-				      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <h2>CP+B Black Market Group</h2>
+              <h3>Summary:</h3>
+                <p>Edited creative copy, minified assets, integrated images into development build.</p>
+              <h4>Technologies Used:</h4>
+                <p>Adobe Creative Suite, HTML, CSS, node.js, Git, GitHub, BaseCamp.</p>
+              <h5>Skills:</h5>
+                <p>Worked in Photoshop to extract images from creative copy.</p>
+          </div>
+          <div class="col-md-4 work-projects">
+            <article>
+              <h2>Aspen Dental</h2>
+              <h3>Summary:</h3>
+                <p>Worked as a developer on a Scrum Team...</p>
+              <h4>Technologies Used:</h4>
+                <p>JavaScript, jQuery, Backbone.js, node.js, php, CodeIgniter, Sass/Compass, Grunt.js, DropKickJS, JSHint, HTML, CSS, Git, GitHub, Bash, JIRA, VMware Fusion.</p>
+              <h5>Skills:</h5>
+              <p>Cross-browser testing (Internet Explorer 8), MVP Architecture, Google Maps API, Moment.js, bug fixes</p>
             </article>
           </div>
-			  </div>
-		  </div>
+          <div class="col-md-4 work-projects">
+            <article>
+              <h2>My Map Now</h2>
+              <h3>Summary:</h3>
+               </p> The MyMapNow web application integrated 5 different mapping API's to provide 38 different map views.</p>
+              <h4>Technologies Used:</h4>
+                <p>JavaScript, jQuery, node.js, Express, HTML5, CSS3, Jade, Bootstrap, Heroku, Git, GitHub, Bash</p>
+              <h5>Skills:</h5>
+                <p>Integrated the following API's: Google Maps, ESRI JavaScript API, Bing Maps, MapQuest, Nokia Here.</p>
+            </article>
+          </div>
+        </div>
+      </div>
     </section><!-- END WORK SECTION -->
     <footer><!-- BEGIN FOOTER -->
       <div class="container-fluid">
@@ -194,9 +218,8 @@
               <h1>Contact Me</h1>
               <address>
                 <div class="btn-group" role="group" aria-label="contact information">
-                  <a class="btn btn-default" role="button" href="mailto:dave@davemay.org"><i class="fa fa-envelope-o "></i>&nbsp;E-mail</a>
-                  <a class="btn btn-default" role="button" ><i class="fa fa-phone"></i>&nbsp;Phone</a>
-                  <a class="btn btn-default skype" role="button" ><i class="fa fa-skype"></i>&nbsp;Skype</a>
+                  <a class="btn btn-default" role="button" href="mailto:dave@davemay.org"><i class="fa fa-envelope-o fa-2x"></i>&nbsp;E-mail</a>
+                  <a class="btn btn-default" role="button" ><i class="fa fa-phone fa-2x"></i>&nbsp;Phone</a>
                 </div>
               </address>
             </div>
@@ -242,7 +265,7 @@
         <div class="row no-gutter">
           <div class="col-md-12">
             <div class="footer-lower">
-              <h6 class="copyright">&copy;&nbsp;RunningTalus 2015. All rights reserved.</h6>
+              <h6>&copy;&nbsp;RunningTalus 2015. All rights reserved.</h6>
             </div>
           </div>
         </div>
