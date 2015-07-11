@@ -207,5 +207,7 @@ body {
 }
 
 .tooltip-inner {
-  width: 100%;
+  width : 100%;
+  color : #FF0000;
 }
+
