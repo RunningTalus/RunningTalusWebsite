@@ -95,6 +95,11 @@ body {
  PORTFOLIO FLICKITY SLIDER STYLES
 ************************/
 
+.gallery-heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .gallery {
     background-color: black;
     height : auto;
