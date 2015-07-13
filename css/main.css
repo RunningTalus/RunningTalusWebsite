@@ -71,6 +71,7 @@ body {
 .jumbotron {
   background-color : #BDC3C7;
   margin-bottom : 0;
+  padding-top: 10px;
 }
 
 /* ==========================================================================
