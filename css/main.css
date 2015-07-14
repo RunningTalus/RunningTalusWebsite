@@ -52,8 +52,12 @@ body {
 }
 
 .social-header {
-  overflow: hidden;
-  padding : 40px 28px 40px 0px;
+
+  overflow : hidden;
+  padding  : 40px 28px 40px 0px;
+
+  /*cursor   : img();*/
+  /*glyphicon glyphicon-new-window*/
 }
 
 
